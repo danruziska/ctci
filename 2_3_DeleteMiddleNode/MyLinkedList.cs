@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2_2_ReturnKthToLast
+namespace _2_3_DeleteMiddleNode
 {
     public class MyLinkedList
     {
@@ -14,6 +14,22 @@ namespace _2_2_ReturnKthToLast
             public Node next = null;
             // value of this Node
             public object data;
+
+            public Node(object data)
+            {
+                this.data = data;
+            }
+        }
+
+        public Node Append(object value)
+        {
+            Node n = new Node(value);
+            if (root == null)
+                root = n;
+            else
+                Last.next = n;
+
+            return n;                
         }
 
         private Node root = null;

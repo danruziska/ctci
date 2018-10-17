@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{26584087-0C48-45F7-A3AB-7726EB208F7E}</ProjectGuid>
+    <ProjectGuid>{EBFF2073-0B74-480F-B477-29A924D5F644}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_2_2_ReturnKthToLast</RootNamespace>
-    <AssemblyName>2_2_ReturnKthToLast</AssemblyName>
+    <RootNamespace>_2_3_DeleteMiddleNode</RootNamespace>
+    <AssemblyName>2_3_DeleteMiddleNode</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MyLinkedList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
