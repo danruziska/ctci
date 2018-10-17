@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_1_IsUnique", "1_1_IsUniqu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_2_Permutation", "1_2_Permutation\1_2_Permutation.csproj", "{C44E323C-864F-4A1F-AB69-4F719C7577CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLify", "URLify\URLify.csproj", "{9BBDC17D-DB95-49EC-BF7D-9494835E9CF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_3_URLify", "1_3_URLify\1_3_URLify.csproj", "{9BBDC17D-DB95-49EC-BF7D-9494835E9CF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
