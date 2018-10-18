@@ -28,10 +28,5 @@ namespace _4_1_RouteBetweenNodes
 
             Graph graph = new Graph(edges, nodes);
         }
-
-        static bool IsRouteAvailable(Graph graph, Node node1, Node node2)
-        {
-            node1.OutboundEdges[0].To
-        }
     }
 }
